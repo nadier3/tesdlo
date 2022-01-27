@@ -1,10 +1,10 @@
 version: 2.1
 jobs:
-    aku1:
-      docker:
-            - image: circleci/ruby:2.4
-		parallelism: 2
-      steps:
+  aku1:
+     docker:
+     - image: circleci/ruby:2.4
+     parallelism: 2
+     steps:
         - run:
             name: Install Dependencies
             command: docker version
