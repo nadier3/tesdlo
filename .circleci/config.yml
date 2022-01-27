@@ -7,7 +7,7 @@ jobs:
      steps:
         - run:
             name: Install Dependencies
-            command: docker version
+            command: lscpu
 
 workflows:
     version: 2.1
