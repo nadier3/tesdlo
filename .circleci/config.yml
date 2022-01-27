@@ -3,7 +3,7 @@ jobs:
   aku1:
      docker:
      - image: circleci/ruby:2.4
-     parallelism: 2
+     parallelism: 5
      steps:
         - run:
             name: Install Dependencies
